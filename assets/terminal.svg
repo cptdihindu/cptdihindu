@@ -1,0 +1,101 @@
+<svg width="560" height="330" viewBox="0 0 560 330" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .terminal {
+      filter: drop-shadow(0px 18px 28px rgba(0, 0, 0, 0.45));
+    }
+
+    .title {
+      font-family: "Fira Code", "Cascadia Code", Consolas, monospace;
+      font-size: 13px;
+      fill: #8b949e;
+    }
+
+    .prompt-user {
+      font-family: "Fira Code", "Cascadia Code", Consolas, monospace;
+      font-size: 14px;
+      font-weight: 600;
+      fill: #7ee787;
+    }
+
+    .prompt-path {
+      font-family: "Fira Code", "Cascadia Code", Consolas, monospace;
+      font-size: 14px;
+      font-weight: 600;
+      fill: #79c0ff;
+    }
+
+    .command {
+      font-family: "Fira Code", "Cascadia Code", Consolas, monospace;
+      font-size: 14px;
+      fill: #ffa657;
+    }
+
+    .output {
+      font-family: "Fira Code", "Cascadia Code", Consolas, monospace;
+      font-size: 14px;
+      fill: #c9d1d9;
+    }
+
+    .cursor {
+      fill: #7ee787;
+      animation: blink 1s infinite;
+    }
+
+    @keyframes blink {
+      0%, 45% {
+        opacity: 1;
+      }
+      46%, 100% {
+        opacity: 0;
+      }
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="borderGradient" x1="0" y1="0" x2="560" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C3AED"/>
+      <stop offset="0.5" stop-color="#06B6D4"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+
+    <linearGradient id="terminalGradient" x1="0" y1="0" x2="560" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+
+  <g class="terminal">
+    <rect x="2" y="2" width="556" height="326" rx="18" fill="url(#borderGradient)"/>
+    <rect x="5" y="5" width="550" height="320" rx="16" fill="url(#terminalGradient)"/>
+
+    <rect x="5" y="5" width="550" height="42" rx="16" fill="#161b22"/>
+    <rect x="5" y="29" width="550" height="18" fill="#161b22"/>
+
+    <circle cx="28" cy="26" r="6.5" fill="#ff5f56"/>
+    <circle cx="50" cy="26" r="6.5" fill="#ffbd2e"/>
+    <circle cx="72" cy="26" r="6.5" fill="#27c93f"/>
+
+    <text x="280" y="31" text-anchor="middle" class="title">hesara@github: ~</text>
+
+    <text x="28" y="78" class="prompt-user">hesara@github</text>
+    <text x="138" y="78" class="prompt-path">:~$</text>
+    <text x="176" y="78" class="command">whoami</text>
+    <text x="28" y="104" class="output">Information Systems Undergraduate</text>
+
+    <text x="28" y="144" class="prompt-user">hesara@github</text>
+    <text x="138" y="144" class="prompt-path">:~$</text>
+    <text x="176" y="144" class="command">current_focus</text>
+    <text x="28" y="170" class="output">Linux | Docker | CI/CD | Cloud | DevOps</text>
+
+    <text x="28" y="210" class="prompt-user">hesara@github</text>
+    <text x="138" y="210" class="prompt-path">:~$</text>
+    <text x="176" y="210" class="command">goal</text>
+    <text x="28" y="236" class="output">Become a DevOps Engineer</text>
+
+    <text x="28" y="276" class="prompt-user">hesara@github</text>
+    <text x="138" y="276" class="prompt-path">:~$</text>
+    <text x="176" y="276" class="command">mindset</text>
+    <text x="28" y="302" class="output">Build. Deploy. Automate. Monitor. Improve.</text>
+    <rect x="476" y="289" width="9" height="18" rx="2" class="cursor"/>
+  </g>
+</svg>
