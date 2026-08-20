@@ -48,7 +48,7 @@
 
 <table>
 <tr>
-<td width="60%" valign="top">
+<td width="58%" valign="top">
 
 ### 👋 Hey, I'm Hesara
 
@@ -62,21 +62,9 @@ I'm an **Information Systems undergraduate** interested in building practical so
 - 🎯 Goal: become a **DevOps Engineer**
 
 </td>
-<td width="40%" valign="top">
+<td width="42%" align="center" valign="top">
 
-```bash
-hesara@github:~$ whoami
-Information Systems Undergraduate
-
-hesara@github:~$ current_focus
-Linux | Docker | CI/CD | Cloud | DevOps
-
-hesara@github:~$ goal
-Become a DevOps Engineer
-
-hesara@github:~$ mindset
-Build. Deploy. Automate. Monitor. Improve.
-```
+<img src="./assets/terminal.svg" alt="Hesara Liyanage terminal intro" width="100%" />
 
 </td>
 </tr>
